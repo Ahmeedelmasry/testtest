@@ -85,7 +85,7 @@ btn.addEventListener("click" , () => {
                 
             }
             setTimeout(() => {
-                location.href = "../Upload.html"
+                location.href = "https://ahmeedelmasry.github.io/upload/"
             }, 1500);
             info.push(userData);
             window.localStorage.setItem("users" , JSON.stringify(info));
